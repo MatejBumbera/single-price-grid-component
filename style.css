@@ -1,0 +1,45 @@
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+#us {
+    background-color: hsl(179, 62%, 43%);
+    float:left;
+    width: 50%;
+    height: 80%;
+}
+
+#subscription {
+    background-color: hsl(179, 62%, 43%);
+    float: left;
+    width: 50%;
+    height: 80%;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+}
+
+p {
+    color: hsl(204, 43%, 93%);
+    font-size: 1rem;
+}
+
+h2 {
+    color: hsl(204, 43%, 93%); 
+}
+body {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(204, 43%, 93%); ;
+}
+
+main {
+max-width: 50%;
+height: 50%;
+background-color: white;
+}
