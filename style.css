@@ -20,12 +20,12 @@ p {
 
 h1 {
     color: hsl(179, 62%, 43%);
-    margin-top: 5px;
+    margin-top: 0.3rem;
 }
 
 h2 {
     font-size: 1.2rem;
-    margin-top: 5px;
+    margin-top: 0.3rem;
 }
 body {
     font-family: 'Karla', sans-serif;
@@ -49,7 +49,7 @@ border-radius: 8px;
 }
 
 section {
-    padding: min(40px, 10%);
+    padding: min(40px, 8%);
 }
 
 #dollar {
@@ -83,5 +83,19 @@ button {
 }
 
 @media only screen and (max-width: 719px){
-    
+    #subscription {
+        grid-column: span 2;
+        border-radius: 0;
+    }
+    #us {
+        grid-column: span 2;
+    }
+    main {
+        grid-template-rows: 36% 32% 32%;
+        margin: 5rem 3rem;
+    }
+    .attribution {
+        position: relative;
+        bottom: 5rem;
+    }
 }
