@@ -74,6 +74,7 @@ button {
     font-size: 1rem;
     box-shadow: 0.09rem 0.6rem 1rem hsl(179, 62%, 36%);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 button:hover {
@@ -81,10 +82,12 @@ button:hover {
     box-shadow: 0.2rem 0.7rem 1rem hsl(179, 62%, 38%);
 }
 
-#us p {
+ul {
     color: hsl(204, 43%, 93%, 0.7);
     font-size: 0.9rem;
     line-height: 1.3rem;
+    list-style: none;
+    padding-left: 0;
 }
 
 @media only screen and (max-width: 767px){
