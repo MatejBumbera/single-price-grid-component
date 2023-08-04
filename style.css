@@ -97,15 +97,15 @@ button:hover {
         border-radius: 0 0 5px 5px;
     }
     main {
-        grid-template-rows: 36% 32% 32%;
-        margin: 5rem 3rem;
+        grid-template-rows: 300px 1fr 1fr;
+        margin: 4rem 3rem;
         border-radius: 5px 5px 0 0;
     }
     .attribution {
         position: relative;
-        bottom: 5rem;
+        bottom: 4rem;
     }
     section {
-        padding: 6%;
+        padding: 8%;
     }
 }
