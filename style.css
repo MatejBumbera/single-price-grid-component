@@ -1,5 +1,5 @@
 #us {
-    background-color: hsl(179, 62%, 43%);
+    background-color: hsl(179, 52%, 53%);
     border-radius: 0 0 8px 0;
 }
 
@@ -52,10 +52,6 @@ section {
     padding: min(40px, 10%);
 }
 
-#us p {
-    line-height: 1.2rem;
-}
-
 #dollar {
     font-size: 2rem; 
     font-weight: bold; 
@@ -70,12 +66,22 @@ button {
     border: none;
     position: relative;
     top: 1.3rem;
-    padding: 1rem 5.7rem;
+    padding: 16px 92px;
     color: hsl(204, 43%, 93%);
     font-family: 'Karla', sans-serif;
     background-color: hsl(71, 73%, 49%);
     font-weight: bold;
     font-size: 1rem;
-    box-shadow: 0.09rem 0.5rem 1rem hsl(179, 62%, 37%);
+    box-shadow: 0.09rem 0.6rem 1rem hsl(179, 62%, 36%);
     border-radius: 5px;
+}
+
+#us p {
+    color: hsl(204, 43%, 93%, 0.7);
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+}
+
+@media only screen and (max-width: 719px){
+    
 }
