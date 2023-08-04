@@ -1,11 +1,11 @@
 #us {
     background-color: hsl(179, 52%, 53%);
-    border-radius: 0 0 8px 0;
+    border-radius: 0 0 5px 0;
 }
 
 #subscription {
     background-color: hsl(179, 62%, 43%);
-    border-radius: 0 0 0 8px;
+    border-radius: 0 0 0 5px;
 }
 
 #community {
@@ -40,16 +40,16 @@ body {
 }
 
 main {
-max-width: 630px;
+max-width: 665px;
 width: 85%;
 background-color: white;
 display: grid;
 grid-template: 45% 55% / 50% 50%;
-border-radius: 8px;
+border-radius: 5px;
 }
 
 section {
-    padding: min(40px, 8%);
+    padding: 40px;
 }
 
 #dollar {
@@ -87,20 +87,25 @@ button:hover {
     line-height: 1.3rem;
 }
 
-@media only screen and (max-width: 719px){
+@media only screen and (max-width: 767px){
     #subscription {
         grid-column: span 2;
         border-radius: 0;
     }
     #us {
         grid-column: span 2;
+        border-radius: 0 0 5px 5px;
     }
     main {
         grid-template-rows: 36% 32% 32%;
         margin: 5rem 3rem;
+        border-radius: 5px 5px 0 0;
     }
     .attribution {
         position: relative;
         bottom: 5rem;
+    }
+    section {
+        padding: 6%;
     }
 }
