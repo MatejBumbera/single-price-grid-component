@@ -1,32 +1,31 @@
-h1 {
-    color: hsl(179, 62%, 43%);
-}
-
 #us {
     background-color: hsl(179, 62%, 43%);
-    float:left;
-    width: 50%;
-    height: 80%;
+    border-radius: 0 0 8px 0;
 }
 
 #subscription {
     background-color: hsl(179, 62%, 43%);
-    float: left;
-    width: 50%;
-    height: 80%;
+    border-radius: 0 0 0 8px;
 }
 
-button {
-    background-color: hsl(71, 73%, 54%);
+#community {
+    grid-column: span 2;
 }
 
 p {
-    color: hsl(204, 43%, 93%);
     font-size: 1rem;
+    line-height: 1.6rem;
+    margin: 0.5rem 0;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    margin-top: 5px;
 }
 
 h2 {
-    color: hsl(204, 43%, 93%); 
+    font-size: 1.2rem;
+    margin-top: 5px;
 }
 body {
     font-family: 'Karla', sans-serif;
@@ -35,11 +34,48 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: hsl(204, 43%, 93%); ;
+    margin: 0;
+    background-color: hsl(204, 43%, 93%);
+    color: hsl(204, 43%, 93%); 
 }
 
 main {
-max-width: 50%;
-height: 50%;
+max-width: 630px;
+width: 85%;
 background-color: white;
+display: grid;
+grid-template: 45% 55% / 50% 50%;
+border-radius: 8px;
+}
+
+section {
+    padding: min(40px, 10%);
+}
+
+#us p {
+    line-height: 1.2rem;
+}
+
+#dollar {
+    font-size: 2rem; 
+    font-weight: bold; 
+    position: relative;
+    top: 0.3rem;
+    display: inline-block;
+    margin-top: 0.1rem;
+    margin-right: 0.5rem;
+}
+
+button {
+    border: none;
+    position: relative;
+    top: 1.3rem;
+    padding: 1rem 5.7rem;
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(71, 73%, 49%);
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0.09rem 0.5rem 1rem hsl(179, 62%, 37%);
+    border-radius: 5px;
 }
